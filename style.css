@@ -14,20 +14,9 @@ body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
 }
-.wrapper {
-  width: 400px;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 20px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
-.form-box {
-  padding: 40px;
-}
-.form-box h2 {
-  font-size: 2em;
-  color: #162938;
-  text-align: center;
-  margin-bottom: 20px;
+.fa-cloud-sun {
+  padding-left: 330px;
+  margin-bottom: 40px;
 }
 .input-box{
   position: relative;
