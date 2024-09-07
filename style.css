@@ -10,6 +10,7 @@ body {
 .first-page {
   background-image: url("https://img.freepik.com/free-vector/lovely-watercolor-clouds-background_52683-24203.jpg?t=st=1725384929~exp=1725388529~hmac=aee3662a838206804397ddf59d6b6af9a99c6aae10dab61cde51a683b1598e88&w=740");
   background-size: cover;
+  height: 100%;
 }
 
 h1 {
@@ -43,7 +44,7 @@ h1 {
 
 .container {
   text-align: center;
-  margin-top: 150px; /* Centering vertically */
+  margin-top: 180px;
 }
 
 .search-label {
