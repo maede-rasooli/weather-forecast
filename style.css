@@ -14,9 +14,20 @@ body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
 }
-.fa-cloud-sun {
-  padding-left: 330px;
-  margin-bottom: 40px;
+.wrapper {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.form-box {
+  padding: 40px;
+}
+.form-box h2 {
+  font-size: 2em;
+  color: #162938;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .input-box{
   position: relative;
@@ -87,21 +98,20 @@ text-decoration: underline;
   padding-top: 10px;
 }
 /*Now Forecast part css*/
+/* @media only screen and (min-width:500px) {
+  div .container{
+    flex-direction: column;
+  } 
+} */
 
 .backdiv{
   background-color: #ced3dd;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   border-radius:2%   
-}
-  
-.now-icon{
-  width: 60px;
-  height: 60px;
-  padding-bottom: 80px;
-  padding-left: 350px;
 } 
-.now .forecast{
-  padding: 0;
+.fa-cloud-sun {
+  padding-left: 330px;
+  margin-bottom: 40px;
 }
 
 /* todays highlight */
@@ -109,4 +119,7 @@ text-decoration: underline;
   background-color: #ced3dd;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   border-radius:2% 
+}
+.margin{
+  margin-left: 220px;
 }
